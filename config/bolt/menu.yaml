@@ -1,0 +1,24 @@
+main:
+    -
+        label: Kezdőlap
+        link: homepage
+        class: homepage
+    -
+        label: Karunkról
+        link: page/2
+        submenu:
+            -
+                label: 'A Kar rövid története'
+                link: entries/3
+            -
+                label: 'MIK Mentorklub'
+                link: entries/5
+            -
+                label: Organogram
+                link: entries/4
+            -
+                label: Minőségbiztosítás
+                link: entries/6
+            -
+                label: 'A Kar központi elérhetőségei'
+                link: entries/8
